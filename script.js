@@ -6,3 +6,4 @@ const canvasWidth = canvas.width = 600;
 const canvasHeight = canvas.height = 600;
 
 const playerImage = new Image();
+playerImage.src = "player image";
