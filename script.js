@@ -7,3 +7,7 @@ const canvasHeight = canvas.height = 600;
 
 const playerImage = new Image();
 playerImage.src = "player image";
+
+function animate() {
+  
+}
