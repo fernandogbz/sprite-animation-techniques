@@ -11,4 +11,5 @@ playerImage.src = "player image";
 function animate() {
   ctx.clearRect(0,0, canvasWidth, canvasHeight);
   ctx.fillRect(50, 50, 100, 100);
+  requestAnimationFrame(animate);
 }
