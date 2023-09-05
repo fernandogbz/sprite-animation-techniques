@@ -9,5 +9,6 @@ const playerImage = new Image();
 playerImage.src = "player image";
 
 function animate() {
-  ctx.clearRect(0,0 canvasWidth, canvasHeight)
+  ctx.clearRect(0,0, canvasWidth, canvasHeight);
+  ctx.fillRect(50, 50, 100, 100);
 }
